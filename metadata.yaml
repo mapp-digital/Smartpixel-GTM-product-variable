@@ -15,6 +15,6 @@
 homepage: "https://webtrekk.com"
 documentation: "https://docs.webtrekk.com/display/WIGT"
 versions:
-  - sha: 
+  - sha: 2d5dbf27566d76a891383bca79793ad5b252c43a
     changeNotes: Initial Version
     
