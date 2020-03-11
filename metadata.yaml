@@ -15,6 +15,8 @@
 homepage: "https://mapp.com"
 documentation: "https://docs.mapp.com/display/WIGT"
 versions:
+  - sha: 83a8f2910a47dcc6e5a9c9d7851aa43d7a04d119
+    changeNotes: Webtrekk to Mapp Intelligence rebrand
   - sha: 2d5dbf27566d76a891383bca79793ad5b252c43a
     changeNotes: Initial Version
     
