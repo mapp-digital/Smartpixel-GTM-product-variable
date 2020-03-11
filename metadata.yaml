@@ -1,4 +1,4 @@
-# Copyright 2019 Webtrekk GmbH
+# Copyright 2020 Mapp Digital US, LLC
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,8 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-homepage: "https://webtrekk.com"
-documentation: "https://docs.webtrekk.com/display/WIGT"
+homepage: "https://mapp.com"
+documentation: "https://docs.mapp.com/display/WIGT"
 versions:
   - sha: 2d5dbf27566d76a891383bca79793ad5b252c43a
     changeNotes: Initial Version

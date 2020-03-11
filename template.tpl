@@ -13,9 +13,13 @@ ___INFO___
   "id": "cvt_temp_public_id",
   "version": 1,
   "securityGroups": [],
-  "displayName": "Webtrekk Product Array",
-  "categories": ["ANALYTICS", "CONVERSIONS", "MARKETING"],
-  "description": "Map your product object array to the Webtrekk Smart Pixel data structure",
+  "displayName": "Mapp Intelligence Product Array",
+  "description": "Map your product object array to the Mapp Intelligence Smart Pixel data structure",
+  "categories": [
+    "ANALYTICS",
+    "CONVERSIONS",
+    "MARKETING"
+  ],
   "containerContexts": [
     "WEB"
   ]
@@ -84,7 +88,7 @@ ___TEMPLATE_PARAMETERS___
   {
     "type": "LABEL",
     "name": "parameter_category_help",
-    "displayName": "Use the following fields to map your custom e-commerce parameters and categories created in your Webtrekk account to a value in your product object or data layer. For example, if you have a key called \u0027mainCategory\u0027 in the product array of your data layer and you want to  map this to Webtrekk product category ID 1, all you need to do is to add a category mapping below, enter \u00271\u0027 in the left column, and \u0027mainCategory\u0027 in the right column."
+    "displayName": "Use the following fields to map your custom e-commerce parameters and categories created in your Mapp Intelligence account to a value in your product object or data layer. For example, if you have a key called \u0027mainCategory\u0027 in the product array of your data layer and you want to  map this to Mapp Intelligence product category ID 1, all you need to do is to add a category mapping below, enter \u00271\u0027 in the left column, and \u0027mainCategory\u0027 in the right column."
   },
   {
     "type": "SIMPLE_TABLE",
@@ -206,6 +210,6 @@ scenarios: []
 
 ___NOTES___
 
-Created on 12/12/2019, 3:47:52 PM
+Created on 2/12/2020, 4:43:32 PM
 
 
