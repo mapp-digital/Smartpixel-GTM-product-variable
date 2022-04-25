@@ -13,8 +13,10 @@
 # limitations under the License.
 
 homepage: "https://mapp.com"
-documentation: "https://docs.mapp.com/display/WIGT"
+documentation: "https://documentation.mapp.com/1.0/en/e-commerce-19104348.html"
 versions:
+  - sha: 712acb8724f920afafd06fd16f8bef36d5a9c4ae
+    changeNotes: Use status field within product to determine product status
   - sha: 83a8f2910a47dcc6e5a9c9d7851aa43d7a04d119
     changeNotes: Webtrekk to Mapp Intelligence rebrand
   - sha: 2d5dbf27566d76a891383bca79793ad5b252c43a
