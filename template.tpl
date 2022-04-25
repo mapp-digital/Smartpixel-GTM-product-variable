@@ -159,6 +159,7 @@ if (products_.length > 0) {
         'id',
         'cost',
         'quantity',
+        'status',
         'soldOut',
         'variant',
         'parameter',
@@ -195,7 +196,7 @@ if (products_.length > 0) {
                 }
             }
         });
-        smartPixelProduct.status = status_;
+        smartPixelProduct.status = smartPixelProduct.status || status_;
         return smartPixelProduct;
     };
     return data.products.map(makeProduct_);
