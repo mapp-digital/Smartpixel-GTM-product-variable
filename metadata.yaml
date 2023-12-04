@@ -15,6 +15,8 @@
 homepage: "https://mapp.com"
 documentation: "https://documentation.mapp.com/1.0/en/e-commerce-19104348.html"
 versions:
+  - sha: 95865d83d2ca94c177ce4120fb663219362dd376
+    changeNotes: Add currency field
   - sha: 712acb8724f920afafd06fd16f8bef36d5a9c4ae
     changeNotes: Use status field within product to determine product status
   - sha: 83a8f2910a47dcc6e5a9c9d7851aa43d7a04d119
