@@ -73,6 +73,13 @@ ___TEMPLATE_PARAMETERS___
   },
   {
     "type": "TEXT",
+    "name": "currency",
+    "displayName": "ISO 4217 currency code",
+    "simpleValueType": true,
+    "valueHint": "String"
+  },
+  {
+    "type": "TEXT",
     "name": "variant",
     "displayName": "Name of product variant property",
     "simpleValueType": true,
@@ -159,6 +166,7 @@ if (products_.length > 0) {
         'id',
         'cost',
         'quantity',
+        'currency',
         'status',
         'soldOut',
         'variant',
