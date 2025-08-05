@@ -42,7 +42,7 @@ ___TEMPLATE_PARAMETERS___
     "name": "status",
     "displayName": "Product status",
     "simpleValueType": true,
-    "help": "Map the status of your product here: \u003cul\u003e\u003cli\u003e \u0027view\u0027: product was seen on a single/detailed product page.\u003c/li\u003e\u003cli\u003e\u0027list\u0027: product was seen in a list of products.\u003c/li\u003e\u003cli\u003e\u0027basket\u0027: product was added to the shopping basket.\u003c/li\u003e\u003cli\u003e\u0027confirmation\u0027: product was bought.\u003c/li\u003e\u003c/ul\u003e",
+    "help": "Map the status of your product here: \u003cul\u003e\u003cli\u003e \u0027view\u0027: product was seen on a single/detailed product page\u003c/li\u003e\u003cli\u003e\u0027list\u0027: product was seen in a list of products\u003c/li\u003e\u003cli\u003e\u0027addToWishlist\u0027: product was added to wishlist\u003c/li\u003e\u003cli\u003e\u0027deleteFromWishlist\u0027: product was removed from wishlist\u003c/li\u003e\u003cli\u003e\u0027addToCart\u0027: product was added to the shopping cart\u003c/li\u003e\n\u003cli\u003e\u0027deleteFromCart\u0027: product was removed from shopping cart\u003c/li\u003e\u003cli\u003e\u0027checkout\u0027: product was moved to checkout\u003c/li\u003e\u003cli\u003e\u0027confirmation\u0027: product was bought\u003c/li\u003e\u003c/ul\u003e",
     "valueHint": "String"
   },
   {
