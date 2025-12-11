@@ -93,6 +93,27 @@ ___TEMPLATE_PARAMETERS___
     "valueHint": "String"
   },
   {
+    "type": "TEXT",
+    "name": "fashionStyleId",
+    "displayName": "Name of product fashionStyleId property",
+    "simpleValueType": true,
+    "valueHint": "String"
+  },
+  {
+    "type": "TEXT",
+    "name": "fashionItemTitle",
+    "displayName": "Name of product fashionItemTitle property",
+    "simpleValueType": true,
+    "valueHint": "String"
+  },
+  {
+    "type": "TEXT",
+    "name": "fashionItemCategory",
+    "displayName": "Name of product fashionItemCategory property",
+    "simpleValueType": true,
+    "valueHint": "String"
+  },
+  {
     "type": "LABEL",
     "name": "parameter_category_help",
     "displayName": "Use the following fields to map your custom e-commerce parameters and categories created in your Mapp Intelligence account to a value in your product object or data layer. For example, if you have a key called \u0027mainCategory\u0027 in the product array of your data layer and you want to  map this to Mapp Intelligence product category ID 1, all you need to do is to add a category mapping below, enter \u00271\u0027 in the left column, and \u0027mainCategory\u0027 in the right column."
@@ -170,9 +191,11 @@ if (products_.length > 0) {
         'status',
         'soldOut',
         'variant',
+        'fashionStyleId',
+        'fashionItemTitle',
+        'fashionItemCategory',
         'parameter',
         'category'
-
     ];
 
     /**
