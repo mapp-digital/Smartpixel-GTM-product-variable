@@ -101,6 +101,13 @@ ___TEMPLATE_PARAMETERS___
   },
   {
     "type": "TEXT",
+    "name": "fashionProductId",
+    "displayName": "Name of product fashionProductId property",
+    "simpleValueType": true,
+    "valueHint": "String"
+  },
+  {
+    "type": "TEXT",
     "name": "fashionItemTitle",
     "displayName": "Name of product fashionItemTitle property",
     "simpleValueType": true,
@@ -192,6 +199,7 @@ if (products_.length > 0) {
         'soldOut',
         'variant',
         'fashionStyleId',
+        'fashionProductId',
         'fashionItemTitle',
         'fashionItemCategory',
         'parameter',
